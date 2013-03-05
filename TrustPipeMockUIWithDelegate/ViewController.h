@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ServiceStarter.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ServiceStarterDelegate>
+
+@property (retain, nonatomic) UITextField *textField;
+
+- (void)addImageToView;
+- (void)addStartButton;
+- (void)addTextField;
 
 @end

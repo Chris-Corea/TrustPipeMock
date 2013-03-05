@@ -23,6 +23,8 @@
 		4AC4181216E515F3001965A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC417ED16E515F3001965A5 /* Foundation.framework */; };
 		4AC4181A16E515F3001965A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AC4181816E515F3001965A5 /* InfoPlist.strings */; };
 		4AC4181D16E515F3001965A5 /* TrustPipeMockUIWithDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4181C16E515F3001965A5 /* TrustPipeMockUIWithDelegateTests.m */; };
+		4AC4182916E55AEC001965A5 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC4182816E55AEC001965A5 /* header.png */; };
+		4AE2D46516E57F0A009D6FB7 /* ServiceStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2D46416E57F0A009D6FB7 /* ServiceStarter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		4AC4181916E515F3001965A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AC4181B16E515F3001965A5 /* TrustPipeMockUIWithDelegateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrustPipeMockUIWithDelegateTests.h; sourceTree = "<group>"; };
 		4AC4181C16E515F3001965A5 /* TrustPipeMockUIWithDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrustPipeMockUIWithDelegateTests.m; sourceTree = "<group>"; };
+		4AC4182816E55AEC001965A5 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		4AE2D46316E57F0A009D6FB7 /* ServiceStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceStarter.h; sourceTree = "<group>"; };
+		4AE2D46416E57F0A009D6FB7 /* ServiceStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceStarter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,7 @@
 		4AC417DF16E515F3001965A5 = {
 			isa = PBXGroup;
 			children = (
+				4AC4182616E55958001965A5 /* Resources */,
 				4AC417F116E515F3001965A5 /* TrustPipeMockUIWithDelegate */,
 				4AC4181516E515F3001965A5 /* TrustPipeMockUIWithDelegateTests */,
 				4AC417EA16E515F3001965A5 /* Frameworks */,
@@ -121,6 +127,8 @@
 				4AC417FB16E515F3001965A5 /* AppDelegate.m */,
 				4AC4180316E515F3001965A5 /* ViewController.h */,
 				4AC4180416E515F3001965A5 /* ViewController.m */,
+				4AE2D46316E57F0A009D6FB7 /* ServiceStarter.h */,
+				4AE2D46416E57F0A009D6FB7 /* ServiceStarter.m */,
 				4AC4180616E515F3001965A5 /* ViewController.xib */,
 				4AC417F216E515F3001965A5 /* Supporting Files */,
 			);
@@ -158,6 +166,23 @@
 				4AC4181816E515F3001965A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AC4182616E55958001965A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AC4182716E55958001965A5 /* Images */,
+			);
+			name = Resources;
+			path = TrustPipeMockUIWithDelegate/Resources;
+			sourceTree = "<group>";
+		};
+		4AC4182716E55958001965A5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4AC4182816E55AEC001965A5 /* header.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +261,7 @@
 				4AC4180016E515F3001965A5 /* Default@2x.png in Resources */,
 				4AC4180216E515F3001965A5 /* Default-568h@2x.png in Resources */,
 				4AC4180816E515F3001965A5 /* ViewController.xib in Resources */,
+				4AC4182916E55AEC001965A5 /* header.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +299,7 @@
 				4AC417F816E515F3001965A5 /* main.m in Sources */,
 				4AC417FC16E515F3001965A5 /* AppDelegate.m in Sources */,
 				4AC4180516E515F3001965A5 /* ViewController.m in Sources */,
+				4AE2D46516E57F0A009D6FB7 /* ServiceStarter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +480,7 @@
 				4AC4182216E515F3001965A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AC4182316E515F3001965A5 /* Build configuration list for PBXNativeTarget "TrustPipeMockUIWithDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +489,7 @@
 				4AC4182516E515F3001965A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
